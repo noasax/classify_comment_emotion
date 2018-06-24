@@ -1,5 +1,10 @@
+#-*- coding: utf-8 -*-
 from konlpy.tag import Twitter
 import nltk
+
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 twitter = Twitter()
 
